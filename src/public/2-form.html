@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 9</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
+    <script src="./js/2-form.js" type="module" defer></script>
+  </head>
+  <body>
+    <form class="feedback-form" autocomplete="off">
+      <label>Email</label>
+      <input class="form-input-email" type="email" name="email" autofocus />
+
+      <label> Message</label>
+      <textarea class="form-input-area" name="message" rows="8"></textarea>
+
+      <div>
+        <button class="btn-feedback" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
